@@ -1,0 +1,101 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  position: relative;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+}
+section {
+  background: url(fond.jpg);
+  position: relative;
+  height: 570px;
+}
+h1 {
+  display: block;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 5%;
+}
+p {
+  display: block;
+  position: absolute;
+  width: 462px;
+  font-size: 24px;
+  color: white;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.form1, .form2 {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 7%;
+  margin-left: 64%;
+}
+.form1 {
+  height: 120px;
+}
+.form2 {
+  height: 225px;
+  margin-top: 21%;
+}
+input {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 25px;
+  margin-bottom: 12px;
+}
+.login {
+  width: 270px;
+  margin-top: 10px;
+}
+.mdp {
+  width: 150px;
+  margin-bottom: 1px;
+}
+.conn {
+  color: white;
+  background-color: blue;
+  height: 32px;
+}
+.checkbox {
+  margin-top: -5px;
+}
+.check {
+  font-size: 15px;
+}
+.check {
+  position: relative;
+  margin-left: -9px;
+}
+.linkmdp {
+  font-size: 15px;
+}
+h2 {
+  font-size: 18px;
+  margin-left: 4%;
+}
+span {
+  font-size: 17px;
+}
+.nom, .mail, .mot2p {
+  width: 270px;
+}
+.inscr {
+  background-color: yellow;
+  height: 35px;
+  margin-left: 50%;
+  font-size: 14px;
+}
+
+.lang {
+  margin-left: 70%;
+}
