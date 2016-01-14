@@ -6,11 +6,41 @@ header {
   position: relative;
   height: 50px;
 }
+img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
 a {
   text-decoration: none;
 }
+.home, .propos, .lang {
+  display: block;
+  position: relative;
+  font-size: 15px;
+}
+.home {
+  margin-top: -25px;
+  margin-left: 8%;
+}
+.propos {
+  margin-top: -17px;
+  margin-left: 16%;
+}
+.lang {
+  font-size: 15px;
+  margin-top: -15px;
+  margin-left: 82%;
+}
+.lang:hover {
+  text-decoration: underline;
+}
+.fa-caret-down {
+  margin-top: 1%;
+  margin-left: 4%;
+}
 section {
   background: url(fond.jpg);
+  background-size: 980px 570px;
   position: relative;
   height: 570px;
 }
@@ -33,12 +63,12 @@ p {
 }
 .form1, .form2 {
   position: absolute;
-  width: 300px;
+  width: 320px;
   background-color: white;
   border: solid 1px black;
   border-radius: 5px;
   margin-top: 7%;
-  margin-left: 64%;
+  margin-left: 60%;
 }
 .form1 {
   height: 120px;
@@ -48,7 +78,7 @@ p {
   margin-top: 21%;
 }
 input {
-  margin-left: 5%;
+  margin-left: 6%;
   margin-right: 5%;
   height: 25px;
   margin-bottom: 12px;
@@ -71,20 +101,24 @@ input {
 }
 .check {
   font-size: 15px;
-}
-.check {
-  position: relative;
-  margin-left: -9px;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: -12px;
 }
 .linkmdp {
-  font-size: 15px;
+  position: absolute;
+  font-size: 13px;
+  color: blue;
+  margin-top: 10px;
+  margin-left: 33%;
 }
 h2 {
   font-size: 18px;
   margin-left: 4%;
 }
-span {
+h2 > span {
   font-size: 17px;
+  color: grey;
 }
 .nom, .mail, .mot2p {
   width: 270px;
@@ -95,7 +129,22 @@ span {
   margin-left: 50%;
   font-size: 14px;
 }
-
-.lang {
-  margin-left: 70%;
+footer {
+  background-color: black;
+  height: 85px;
+}
+footer a {
+  color: white;
+  font-size: 12px;
+  margin-right: 0.5%;
+}
+.aprop {
+  margin-left: 2%;
+}
+.annu {
+  margin-left: 43%;
+}
+.copyr {
+  color: white;
+  font-size: 12px;
 }
