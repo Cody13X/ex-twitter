@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
   $(".lang").on("click", function() {
-    alert('piouf');
+    alert("Bientôt dans la version 2.0 !! lol");
   });
 })

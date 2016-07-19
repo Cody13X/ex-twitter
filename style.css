@@ -1,6 +1,7 @@
 html, body {
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 header {
   position: relative;
@@ -40,9 +41,9 @@ a {
 }
 section {
   background: url(fond.jpg);
-  background-size: 980px 570px;
+  background-size: cover;
   position: relative;
-  height: 570px;
+  height: 855px;
 }
 h1 {
   display: block;
@@ -131,18 +132,16 @@ h2 > span {
 }
 footer {
   background-color: black;
+  width: 100%;
   height: 85px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
 footer a {
   color: white;
   font-size: 12px;
   margin-right: 0.5%;
-}
-.aprop {
-  margin-left: 2%;
-}
-.annu {
-  margin-left: 43%;
 }
 .copyr {
   color: white;
